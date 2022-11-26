@@ -1,0 +1,101 @@
+@import url('https://fonts.googleapis.com/css2?family=Poppins:wght@300;400;500;600;700;800&family=Rubik:wght@300;400;500;600;700;800&display=swap');
+
+* {
+	box-sizing: border-box;
+}
+
+body {
+	font-family: 'Rubik', serif;
+	background-image: url('img/background');
+    color: #000000;
+}
+
+table{
+	font-family: 'PT Serif', serif;
+	width: 100%;
+}
+
+input{
+    border: #000000;
+    height: 20px;
+}
+
+.container{
+    height: 100px;
+	
+}
+
+.display {
+	display: flex;
+	justify-content: center;
+	height: 100;
+}
+
+.user-card{
+	height: 450px;
+	width: 400px;
+	margin-top: 5rem;
+	margin-bottom: 5rem;
+	margin-top: 7rem;
+	background: linear-gradient(135deg, rgba(160, 159, 159, .6), rgba(160, 159, 159, .6));
+	position: relative;
+	display: flex;
+	justify-content: center;
+	flex-direction: column;
+	padding: 10px;
+	box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
+	-webkit-box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
+	-moz-box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
+	border-radius: 5px;
+    backdrop-filter: blur(7px);
+}
+
+.header {
+	display: flex;
+	margin-top: 1rem;
+	justify-content: center;
+    padding: 0;
+}
+
+.logo-container{
+	position: absolute;
+	height: 170px; 
+	width: 170px;
+	top: -75px;
+	border-radius: 50%;
+	background: #60a3bc;
+	padding: 10px;
+	text-align: center;
+}
+
+.logo{
+	height: 150px;
+	width: 150px;
+	border-radius: 50%;
+	border: 2px solid white;
+}
+
+.form-registration{
+	display: absolute;
+	width: 100%;
+	border: 1px;
+	justify-content: center;
+	margin-top: 2rem;
+}
+
+.btn-submit{
+	width: 100%;
+	height: 50px;
+	background: #c0392b;
+	color: white;
+	border-radius: 5px;
+	border: 0px;
+}
+
+.btn-submit:hover{
+	box-shadow: 4px 4px #000000;
+}
+
+.custom-control-input{
+	border-radius: 2px;
+}

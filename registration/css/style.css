@@ -1,0 +1,92 @@
+@import url('https://fonts.googleapis.com/css2?family=PT+Serif&family=Playfair+Display:wght@500&display=swap');
+* {
+	box-sizing: border-box;
+}
+
+body {
+	font-family: 'Playfair Display', serif;
+	background-color: #603abc;
+	color: #000000;
+}
+
+table{
+	font-family: 'PT Serif', serif;
+	width: 100%;
+}
+
+.container{
+    height: 100px;
+	
+}
+
+.display {
+	display: flex;
+	justify-content: center;
+	height: 100;
+}
+
+.user-card{
+	height: 600px;
+	width: 500px;
+	margin-top: 5rem;
+	margin-bottom: 5rem;
+	margin-top: 5rem;
+	background: #f39c12;
+	position: relative;
+	display: flex;
+	justify-content: center;
+	flex-direction: column;
+	padding: 10px;
+	box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
+	-webkit-box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
+	-moz-box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
+	border-radius: 5px;
+}
+
+.header {
+	display: flex;
+	margin-top: 1rem;
+	justify-content: center;
+}
+
+.logo-container{
+	position: absolute;
+	height: 170px; 
+	width: 170px;
+	top: -75px;
+	border-radius: 50%;
+	background: #60a3bc;
+	padding: 10px;
+	text-align: center;
+}
+
+.logo{
+	height: 150px;
+	width: 150px;
+	border-radius: 50%;
+	border: 2px solid white;
+}
+
+.form-registration{
+	display: flex;
+	border: 1px;
+	justify-content: center;
+	margin-top: 2rem;
+}
+
+.btn-submit{
+	width: 100%;
+	height: 50px;
+	background: #c0392b;
+	color: white;
+	border-radius: 5px;
+	border: 0px;
+}
+
+.btn-submit:hover{
+	box-shadow: 4px 4px #000000;
+}
+
+.custom-control-input{
+	border-radius: 2px;
+}
